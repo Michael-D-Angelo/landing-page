@@ -111,3 +111,46 @@ body {
 .sign-up-btn:hover {
   background-color: #306fd1;
 }
+
+/* Information Section */
+.information .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-right: 248px;
+  padding-bottom: 92px;
+  padding-top: 32px;
+  padding-left: 248px;
+  background-color: var(--color-light);
+}
+
+.container__cards {
+  display: flex;
+}
+
+figure .card-image {
+  display: block;
+  margin: auto;
+}
+
+.container__cards figure {
+  display: flex;
+  flex-direction: column;
+}
+
+figure .card-image-text {
+  text-align: center;
+}
+
+.information__title {
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-heading);
+  color: var(--color-dark);
+}
+
+.card-image-text {
+  font-size: var(--font-size-secondary);
+  color: var(--color-dark);
+}
