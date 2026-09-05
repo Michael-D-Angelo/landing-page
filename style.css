@@ -27,6 +27,7 @@ body {
   font-family: var(--font-family);
 }
 
+/* Header */
 .header .container {
   background-color: var(--color-dark);
   display: flex;
@@ -37,6 +38,7 @@ body {
 }
 
 .header__logo {
+  font-weight: var(--font-weight-heading);
   font-size: var(--font-size-logo);
   color: var(--color-light);
 }
@@ -54,4 +56,58 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   gap: 24px;
+}
+
+/* HERO */
+.hero {
+  background-color: var(--color-dark);
+}
+
+.hero__title {
+  font-weight: var(--font-weight-hero);
+  font-size: var(--font-size-hero);
+  color: var(--color-light);
+}
+
+.hero__text {
+  font-size: var(--font-size-secondary);
+  color: var(--color-secondary-text);
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  gap: 8px;
+  padding-right: 270px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 270px;
+}
+
+.hero-texts-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.sign-up-btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 6px 22px;
+  border-radius: 6px;
+  font-size: 18px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sign-up-btn:hover {
+  background-color: #306fd1;
 }
