@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+
+  --color-dark: #1f2937;
+  --color-light: #f9faf8;
+  --color-secondary-text: #e5e7eb;
+  --color-accent: #3882f6;
+
+  --font-size-logo: 24px;
+  --font-size-hero: 48px;
+  --font-size-secondary: 18px;
+  --font-size-heading: 36px;
+  --font-size-quote: 36px;
+
+  --font-weight-hero: 900;
+  --font-weight-heading: 900;
+  --font-weight-quote: 300;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.header .container {
+  background-color: var(--color-dark);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+
+.header__logo {
+  font-size: var(--font-size-logo);
+  color: var(--color-light);
+}
+
+.header__navbar {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.header__nav-item {
+  font-size: var(--font-size-secondary);
+  color: var(--color-secondary-text);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 24px;
+}
