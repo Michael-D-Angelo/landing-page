@@ -186,3 +186,30 @@ figure .card-image-text {
   align-self: flex-end;
   font-weight: bold;
 }
+
+/* CTA */
+.cta .cta__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: stretch;
+  gap: 24rem;
+  border-radius: 4px;
+  /* border: 2px solid var(--color-accent); */
+  background: var(--color-accent);
+  margin: 52px 200px 52px 200px;
+  padding: 24px 24px 24px 24px;
+  color: var(--color-light);
+}
+
+.cta__sign-up-btn {
+  align-self: center;
+}
+
+.cta__text {
+  font-size: var(--font-size-secondary);
+  font-weight: 300;
+  color: var(--color-secondary-text);
+}
