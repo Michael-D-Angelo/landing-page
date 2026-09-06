@@ -138,10 +138,14 @@ figure .card-image {
 .container__cards figure {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 figure .card-image-text {
   text-align: center;
+  font-weight: 300;
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .information__title {
@@ -153,4 +157,32 @@ figure .card-image-text {
 .card-image-text {
   font-size: var(--font-size-secondary);
   color: var(--color-dark);
+}
+
+/* Quote */
+.quote {
+  background-color: var(--color-secondary-text);
+  font-size: var(--font-size-quote);
+  color: var(--color-dark);
+}
+
+.quote .container {
+  font-weight: var(--font-weight-quote);
+  font-size: var(--font-size-quote);
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote .quote__text {
+  font-style: italic;
+}
+
+.quote .quote__name {
+  align-self: flex-end;
+  font-weight: bold;
 }
