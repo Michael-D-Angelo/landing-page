@@ -173,7 +173,7 @@ figure .card-image-text {
   padding-top: 100px;
   padding-left: 300px;
   padding-right: 300px;
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
 }
@@ -202,10 +202,27 @@ figure .card-image-text {
   margin: 52px 200px 52px 200px;
   padding: 24px 24px 24px 24px;
   color: var(--color-light);
+  box-shadow: 9px 10px 0px -4px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 9px 10px 0px -4px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 9px 10px 0px -4px rgba(0, 0, 0, 0.09);
 }
 
 .cta__sign-up-btn {
   align-self: center;
+  background-color: #3882f6;
+  color: var(--color-light);
+  padding: 7px 32px;
+  border-radius: 6px;
+  font-size: 15px;
+  border: 2px var(--color-light) solid;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cta__sign-up-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
 .cta__text {
