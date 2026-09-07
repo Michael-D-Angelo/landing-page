@@ -236,8 +236,7 @@ figure .card-image-text {
   display: flex;
   justify-content: center;
   background-color: var(--color-dark);
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding: 24px 0px 24px 0px;
 }
 
 .footer .footer__text {
