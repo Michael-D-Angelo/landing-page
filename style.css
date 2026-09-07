@@ -97,8 +97,8 @@ body {
 }
 
 .sign-up-btn {
-  background-color: #3882f6;
-  color: #f9faf8;
+  background-color: var(--color-accent);
+  color: var(--color-light);
   padding: 6px 22px;
   border-radius: 6px;
   font-size: 18px;
@@ -109,7 +109,7 @@ body {
 }
 
 .sign-up-btn:hover {
-  background-color: #306fd1;
+  background-color: var(--color-accent);
 }
 
 /* Information Section */
@@ -209,7 +209,7 @@ figure .card-image-text {
 
 .cta__sign-up-btn {
   align-self: center;
-  background-color: #3882f6;
+  background-color: var(--color-accent);
   color: var(--color-light);
   padding: 7px 32px;
   border-radius: 6px;
@@ -229,4 +229,18 @@ figure .card-image-text {
   font-size: var(--font-size-secondary);
   font-weight: 300;
   color: var(--color-secondary-text);
+}
+
+/* FOOTER */
+.footer .footer__container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-dark);
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.footer .footer__text {
+  color: var(--color-light);
+  font-size: var(--font-size-secondary);
 }
